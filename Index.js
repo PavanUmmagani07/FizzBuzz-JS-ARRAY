@@ -1,3 +1,26 @@
+#FIZZBUZZ USING IF-ELSE STATEMENTS
+var outputArray = [];
+ var count = 1;
+
+function fizzBuzz() {
+  if (count % 3 === 0 && count % 5 === 0) {
+    outputArray.push("FizzBuzz");
+  } else if (count % 3 === 0) {
+    outputArray.push("Fizz");
+  } else if (count % 5 === 0) {
+    outputArray.push("Buzz");
+  } else {
+    outputArray.push(count);
+  }
+  count++;
+  console.log(outputArray);
+}
+fizzBuzz();
+
+*we need to call the function everytime till the end number we want*
+
+
+
 #FIZZBUZZ USING WHILE LOOP
 var output = [];
 var count = 1;
